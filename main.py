@@ -1,6 +1,6 @@
 import json
 
-with open("data.json", 'r') as file:
+with open("data/user.json", 'r') as file:
     data = json.load(file)
     print(data)
     data.append({
@@ -10,7 +10,7 @@ with open("data.json", 'r') as file:
         "gender" : "male"
     })
 
-with open("data.json",'w') as file:
+with open("data/user.json", 'w') as file:
     json.dump(data,file,indent=4)
 print(data)
 
