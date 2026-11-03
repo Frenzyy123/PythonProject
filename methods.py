@@ -15,5 +15,4 @@ def delete_file(file_name):
 
 def empty_file(file_name):
     with open (file_name,'w') as file:
-        json.dump({},file,indent=4)
-        
+        save_file(file_name,"")
