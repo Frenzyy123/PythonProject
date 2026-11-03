@@ -1,0 +1,57 @@
+[
+  {
+    "name": "iphone 14",
+    "price": 1200,
+    "amount": 500
+  },
+  {
+    "name": "iphone 15 pro",
+    "price": 999,
+    "amount": 350
+  },
+  {
+    "name": "iphone 15 pro max",
+    "price": 1199,
+    "amount": 200
+  },
+  {
+    "name": "samsung galaxy s24 ultra",
+    "price": 1299,
+    "amount": 0
+  },
+  {
+    "name": "samsung galaxy s24",
+    "price": 799,
+    "amount": 0
+  },
+  {
+    "name": "google pixel 8 pro",
+    "price": 999,
+    "amount": 300
+  },
+  {
+    "name": "google pixel 8a",
+    "price": 499,
+    "amount": 450
+  },
+  {
+    "name": "oneplus 12",
+    "price": 799,
+    "amount": 250
+  },
+  {
+    "name": "xiaomi 14 pro",
+    "price": 899,
+    "amount": 180
+  },
+  {
+    "name": "samsung galaxy z fold 5",
+    "price": 1799,
+    "amount": 120
+  },
+  {
+    "name": "nothing phone (2)",
+    "price": 599,
+    "amount": 220
+  }
+]

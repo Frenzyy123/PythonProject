@@ -12,5 +12,10 @@ with open("data/user.json", 'r') as file:
 
 with open("data/user.json", 'w') as file:
     json.dump(data,file,indent=4)
-print(data)
 
+def load_file(filename):
+    with open (filename,'r') as file:
+        products = json.load(file)
+        return products
+
+x = load_file("data/products.json")
