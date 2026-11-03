@@ -11,6 +11,6 @@ with open("data.json", 'r') as file:
     })
 
 with open("data.json",'w') as file:
-    json.dump(data,file)
+    json.dump(data,file,indent=4)
 print(data)
 
